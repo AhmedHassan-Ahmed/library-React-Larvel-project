@@ -16,7 +16,7 @@ class Loan extends Model
     protected $fillable = [
         'book_id',
         'member_id',
-        'status', // e.g., 'borrowed', 'returned', 'overdue'
+        'status', 
         'borrowed_at',
         'due_at',
         'returned_at',
